@@ -1,0 +1,16 @@
+﻿<Window x:Class="SimpleWorkoutTimer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleWorkoutTimer"
+        mc:Ignorable="d"
+        Title="'SimpleWorkoutTimer" Height="450" Width="800" Icon="Images/favicon.ico" ResizeMode="CanMinimize">
+    <Grid Background="#FF161917">
+        <Label x:Name="label" Content="Every" HorizontalAlignment="Left" Height="33" Margin="280,75,0,0" VerticalAlignment="Top" Width="52" Foreground="#FFD4D4D4" FontSize="16"/>
+        <Label x:Name="label_Copy" Content="minutes" HorizontalAlignment="Left" Height="33" Margin="388,75,0,0" VerticalAlignment="Top" Width="71" Foreground="#FFD4D4D4" FontSize="16"/>
+        <TextBox x:Name="txtTimer" HorizontalAlignment="Left" Height="28" Margin="332,79,0,0" TextWrapping="Wrap" Text="30" VerticalAlignment="Top" Width="51" Background="#FFC7C7C7" FontSize="18" TextAlignment="Center"/>
+        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="649,329,0,0" VerticalAlignment="Top" Width="100" Height="55" FontSize="18" Click="BtnStart_Click"/>
+
+    </Grid>
+</Window>
